@@ -16,7 +16,7 @@ def load_csv(path):
 st.title("🛍️ Online Retail Analytics Dashboard")
 st.caption("Sales insights • Customer segmentation • 30-day purchase prediction")
 
-clean_path = BASE / "outputs" / "cleaned_online_retail.csv"
+clean_path = BASE / "outputs" / "cleaned_online_retail.csv.gz"
 segments_path = BASE / "outputs" / "customer_segments.csv"
 predictions_path = BASE / "outputs" / "purchase_predictions.csv"
 results_path = BASE / "outputs" / "model_results.csv"
